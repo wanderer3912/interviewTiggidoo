@@ -22,7 +22,7 @@ export default function Landingpage() {
     email: '',
   });
   function handlesubmit() {
-    window.location.replace('https://interviewtiggidoo.netlify.app/thankyou');
+    window.location.replace('/thankyou');
   }
   function handlechange(e) {
     setForm({
