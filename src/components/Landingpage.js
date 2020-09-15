@@ -14,15 +14,17 @@ import logoblanc from '../img/logo-tiggidoo-blanc.svg';
 import facebook from '../img/Facebook-tiggidoo.png';
 import insta from '../img/instagram-tiggidoo.png';
 import linkedin from '../img/linkedin-tiggidoo.png';
-// import { Redirect } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 export default function Landingpage() {
+  const history = useHistory();
+
   const [initialform, setForm] = useState({
     name: '',
     email: '',
   });
   function handlesubmit() {
-    window.location.replace('/thankyou');
+    istory.push("/thankyou");
   }
   function handlechange(e) {
     setForm({
