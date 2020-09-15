@@ -24,7 +24,7 @@ export default function Landingpage() {
     email: '',
   });
   function handlesubmit() {
-    istory.push("/thankyou");
+    history.push("/thankyou");
   }
   function handlechange(e) {
     setForm({
